@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	serve as a container folder to hold all the related files
+	$ git init	 
+ 	$ git status 	#indicate no files are committed. Git will not do an initial commit for us, since then we would not have a chance to add some descriptions to it.
+

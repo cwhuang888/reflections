@@ -1,0 +1,17 @@
+How Often to Commit
+	one commit per logical change
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	files belonging to a logical unit is called a repository in git.
+		actually, a repository contains the files with all the commit history.
+	function definition and where it is used are often located in different files, change in function definition inevitably need to propagate the chagne to where it is used.
+	thus together, the files make a logical unit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+How might using version control make you more confident to make changes that could break something?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	1. add existing/create new project to be "watched" by git as a repository. 
