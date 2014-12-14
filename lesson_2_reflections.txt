@@ -3,3 +3,8 @@ What happens when you initialize a repository? Why do you need to do it?
 	$ git init	 
  	$ git status 	#indicate no files are committed. Git will not do an initial commit for us, since then we would not have a chance to add some descriptions to it.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working directory  	->  Staging area  			-> Repository
+filesystem directory	    Files related to a logical commit 	   All the files under "watch".
+(visible in filesystem)		(recorded in .git folder)		(recorded in .git folder)
+	staging area enable us to place files in a non-contiguous steps. So we don't need to commit in one breath but in a "step-by-step" fashion.
